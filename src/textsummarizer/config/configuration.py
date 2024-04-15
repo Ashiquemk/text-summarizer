@@ -1,6 +1,6 @@
 from textsummarizer.constants import *
 from textsummarizer.utils.common import read_yaml,create_directories
-from textsummarizer.entity import (DataIngestionConfig, DataValidationConfig, DataTransformationConfig, ModelTrainerConfig)
+from textsummarizer.entity import (DataIngestionConfig, DataValidationConfig, DataTransformationConfig, ModelTrainerConfig,ModelEvaluationConfig)
 
 class ConfigurationManager:
     def __init__(
